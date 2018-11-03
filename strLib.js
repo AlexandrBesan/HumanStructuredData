@@ -46,6 +46,7 @@ function generateString(str, i) {
     return res;
 }
 console.log(generateString("&nbsp;",(5+1)*10));
+console.log(generateString("&nbsp;",(6+1)*10));
 //txt = txt.replaceAll("/","").replaceAll("<","").replaceAll(">","");
 console.log(replaceAll("<ddd></ddd>")("/","")("<","")(">",""));
 console.log(minIndexOf("s[{}}]s")(["{","[",",", "}","]" ]));
